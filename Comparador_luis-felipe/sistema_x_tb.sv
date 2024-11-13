@@ -8,8 +8,8 @@ module sistema_x_tb;
  initial begin
   integer i;
   for (i = 0; i < 16; i = i + 1) begin
-    {a, b, c, d} = i;  // Atribui o valor binário de 'i' aos bits de I3, I2, I1 e I0
-    #5;                    // Espera 5 unidades de tempo antes de passar para a próxima combinação
+    {a, b, c, d} = i;  
+    #5;                    
   end
 end
   
