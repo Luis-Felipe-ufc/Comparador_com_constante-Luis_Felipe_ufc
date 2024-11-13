@@ -8,7 +8,7 @@ module sistema_y_tb;
   
  initial begin
    integer i;
-   B = 4'b1001;
+   B = 4'b0011;
   for (i = 0; i < 16; i = i + 1) begin
     {a, b, c, d} = i;  
     #5;                    
